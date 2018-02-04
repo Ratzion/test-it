@@ -21,4 +21,30 @@
     margin-bottom: 39px;
     float: right;
   }
+  &__about {
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 72px;
+    font-family: Montserrat;
+  }
+  &__services {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 73px;
+  }
+  &__portfolio {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
 }

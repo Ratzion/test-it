@@ -1,0 +1,20 @@
+.about-us {
+  &__border-button {
+
+  }
+  &__string-button {
+    position: relative;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #1E1F24;
+    margin-top: 651px;
+    border: 1px solid #FFC126;
+    padding: 1px 1px 1px 1px;
+  }
+}

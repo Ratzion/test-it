@@ -32,12 +32,49 @@
     color: #1E1F24;
     padding-top: 20px;
   }
-  &__experience{
+  &__experience {
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    width: 50%;
     display: inline;
   }
   &__years {
+    float: left;
+    margin-left: 230px;
+    margin-top: 120px;
+  }
+  &__projects {
+    float: left;
+    margin-left: 240px;
+    margin-top: 120px;
+  }
+  &__developers {
+    float: left;
+    margin-left: 210px;
+    margin-top: 120px;
   }
   &__clients {
-    padding: 312px;
+    float: left;
+    margin-left: 230px;
+    margin-top: 120px;
   }
+}
+h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+p {
+  font-family: Montserrat;
+  font-style: normal;
+  line-height: normal;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0.1em;
 }

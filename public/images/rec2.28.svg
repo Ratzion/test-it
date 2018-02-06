@@ -1,0 +1,12 @@
+<svg width="480" height="300" viewBox="0 0 480 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Rectangle 2.28</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-17641 -3096)">
+<g id="Rectangle 2.28" style="mix-blend-mode:multiply">
+<use xlink:href="#path0_fill" transform="matrix(6.12323e-17 1 -1 6.12323e-17 18121 3096)" fill="#FFC126"/>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 0 300C 0 134.315 134.315 0 300 0L 300 480L 0 480L 0 300Z"/>
+</defs>
+</svg>

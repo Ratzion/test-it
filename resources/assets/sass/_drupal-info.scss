@@ -23,8 +23,7 @@
     font-style: normal;
     font-weight: bold;
     line-height: 64px;
-    font-size: 28px;
-    z-index: 2;
+    font-size: 48px;
     opacity: .99;
   }
   &__background-of-string {
@@ -33,5 +32,49 @@
     width: 46%;
     height: 46%;
     z-index: 1;
+  }
+  &__cite-string {
+    padding-left: 958px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 29px;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+  }
+  &__second-block {
+    position: relative;
+    display: inline;
+  }
+  &__table-strings {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 59px;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    color: #1E1F24;
+  }
+  &__list-slogan {
+    padding-left: 319px;
+    padding-top: 262px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 64px;
+    font-size: 48px;
+  }
+  &__list-strings{
+    padding-left: 319px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 59px;
+    font-size: 16px;
+    letter-spacing: 0.15em;
+    color: #1E1F24;
+    .li {
+      list-style-image: url(images/list-symbol2.png);
+    }
   }
 }

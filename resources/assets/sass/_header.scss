@@ -2,27 +2,32 @@
   background: #FCC127;
   height: 900px;
   text-align: center;
-  &__black-line {
+
+  &__top-line {
     background: black;
     height: 40px;
   }
-  &__white-line {
+
+  &__bottom-line {
     background: #FFFFFF;
     height: 100px;
     top: 40px;
   }
+
   &__logo {
     margin-left: 160px;
     margin-top: 28px;
     margin-bottom: 27px;
     float: left;
   }
-  &__nav {
+
+  &__menu {
     margin-right: 160px;
     margin-top: 39px;
     margin-bottom: 39px;
     float: right;
   }
+
   &__about {
     font-style: normal;
     font-weight: 300;
@@ -30,10 +35,10 @@
     font-size: 18px;
     text-transform: uppercase;
     margin-right: 72px;
-    font-family: Montserrat;
+
   }
+
   &__services {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -41,58 +46,12 @@
     text-transform: uppercase;
     margin-right: 73px;
   }
+
   &__portfolio {
-    font-family: Montserrat;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     font-size: 18px;
     text-transform: uppercase;
-  }
-  &__landing-title {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    line-height: normal;
-    font-size: 6.875em;
-    color: #1E1F24;
-    margin-top: 20px;
-  }
-  &__landing-description {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    font-size: 1.125em;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: #1E1F24;
-  }
-  &__string-under-title {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    font-size: 18px;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    color: #1E1F24;
-  }
-  &__cases-button {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 300;
-    line-height: normal;
-    font-size: 1em;
-    letter-spacing: 0.15em;
-    color: #1E1F24;
-    border: 1px solid #1E1F24;
-    border-radius: 2px;
-    padding: 1.5em 4em 1.6em 4em;
-    margin-top: 54px;
-    display: inline-block;
-  }
-  &__main-image {
-    margin-top: 60px;
   }
 }

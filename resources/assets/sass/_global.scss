@@ -2,6 +2,11 @@ html {
   background: $page-background;
   width: $page-width;
 }
+
 body {
-  margin: 0px;
+  font-family: Montserrat, sans-serif;
+}
+
+.marked-header {
+  background-color: #FFC126;
 }

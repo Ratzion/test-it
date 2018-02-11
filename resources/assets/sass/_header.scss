@@ -1,6 +1,4 @@
 .header {
-  background: #FCC127;
-  height: 900px;
   text-align: center;
 
   &__top-line {
@@ -29,29 +27,34 @@
   }
 
   &__about {
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     font-size: 18px;
     text-transform: uppercase;
     margin-right: 72px;
-
+    color: #1E1F24;
   }
 
   &__services {
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     font-size: 18px;
     text-transform: uppercase;
     margin-right: 73px;
+    color: #1E1F24;
   }
 
   &__portfolio {
+    font-family: Montserrat, sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
     font-size: 18px;
     text-transform: uppercase;
+    color: #1E1F24;
   }
 }

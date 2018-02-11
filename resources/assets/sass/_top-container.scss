@@ -1,34 +1,33 @@
-.landing-title {
-  font-style: normal;
-  font-weight: bold;
-  line-height: normal;
-  font-size: 6.875em;
-  color: #1E1F24;
-  margin-top: 20px;
-}
+.top-container {
+  height: 760px;
+  text-align: center;
+  background: #FCC127;
 
-.landing-description {
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  font-size: 1.125em;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #1E1F24;
-}
+  .main-logo{
+    margin-top: 110px;
+  }
 
-.short-description {
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  font-size: 18px;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: #1E1F24;
-}
+  .landing-title {
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 6.875em;
+    color: #1E1F24;
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
 
+  .short-description {
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #1E1F24;
+  }
 
-
-.main-image {
-  margin-top: 60px;
+  .main-image {
+    margin-top: 34px;
+  }
 }

@@ -1,7 +1,6 @@
 .about-us {
   background: #E5E5E5;
   display: inline;
-  padding-top: 631px;
 
   .about-us__header {
     text-align: center;
@@ -9,7 +8,6 @@
 
   &__team {
     position: relative;
-    display: inline;
     margin-bottom: 158px;
 
     &__header {
@@ -108,7 +106,6 @@
           line-height: normal;
           font-size: 18px;
           text-align: center;
-          text-transform: lowercase;
           color: #1E1F24;
           letter-spacing: 0.15em;
         }
@@ -137,7 +134,6 @@
           line-height: normal;
           font-size: 18px;
           text-align: center;
-          text-transform: lowercase;
           color: #1E1F24;
           letter-spacing: 0.15em;
         }
@@ -145,76 +141,91 @@
     }
   }
 
-  .solutions {
-
-    &__background-image {
-      float: left;
-      padding-top: 189px;
-      z-index: 1;
-    }
+  &__solutions {
+    display: inline-block;
 
     &__image {
       float: left;
-      padding-top: 110px;
+      margin-top: 110px;
       margin-left: -150px;
       z-index: 2;
+      position: relative;
+    }
+
+    &__background-image {
+      float: left;
+      margin-top: 189px;
       opacity: .99;
+      position: relative;
     }
 
     &__header {
-      padding-left: 958px;
-      padding-top: 214px;
+      margin-top: 214px;
       font-style: normal;
       font-weight: bold;
       line-height: 64px;
       font-size: 48px;
       float: right;
+      margin-right: 162px;
+      position: relative;
+      width: 800px;
     }
 
     &__description {
-      padding-left: 958px;
       font-style: normal;
-      font-weight: normal;
+      font-weight: 400;
       line-height: 29px;
       font-size: 16px;
       letter-spacing: 0.15em;
       float: right;
+      margin-right: 323px;
+      position: relative;
+      width: 639px;
+      height: 106px;
     }
   }
 
-  .community {
-    position: relative;
-    display: inline;
+  &__community {
+    display: inline-block;
 
-    &__table-strings {
-      font-style: normal;
-      font-weight: normal;
-      line-height: 59px;
-      font-size: 16px;
-      letter-spacing: 0.15em;
-      color: #1E1F24;
-    }
-    &__list-slogan {
-      padding-left: 319px;
-      padding-top: 262px;
-
+    &__header {
+      margin: 262px 0 0 310px;
       font-style: normal;
       font-weight: bold;
       line-height: 64px;
       font-size: 48px;
+      width: 800px;
+      height: 137px;
+      text-align: left;
+      float: left;
+      z-index: 1;
+      opacity: .98;
+      position: relative;
     }
-    &__list-strings {
-      padding-left: 319px;
 
+    &__list {
+      margin-left: 319px;
       font-style: normal;
-      font-weight: normal;
+      font-weight: 400;
       line-height: 59px;
       font-size: 16px;
       letter-spacing: 0.15em;
       color: #1E1F24;
-      .ul {
-        list-style-image: url(images/list-symbol2.png);
-      }
+      float: left;
+      position: relative;
+      list-style-image: url('../images/about-us,community/list-symbol.svg');
+    }
+
+    &__image {
+      margin-top: 40px;
+      z-index: 8;
+      position: relative;
+    }
+
+    &__background-image {
+      margin-top: 263px;
+      position: relative;
+      opacity: .99;
     }
   }
 }

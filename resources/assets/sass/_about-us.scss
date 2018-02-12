@@ -215,19 +215,19 @@
         list-style-image: url('../images/about-us,community/list-symbol.svg');
       }
     }
+
     &__background-image {
       margin: 279px 0 172px 0;
       z-index: 2;
       width: auto;
       float: right;
-
     }
+
     &__image {
       z-index: 1;
       width: auto;
       float: right;
       margin: 234px -350px 0 0;
     }
-
   }
 }

@@ -1,6 +1,5 @@
 .portfolio {
 
-
   &__our-work {
     display: inline-block;
     position: relative;
@@ -12,11 +11,13 @@
     }
 
     &__left-pointer {
-      background: #F5F5F5;
+      float: left;
+      margin: 320px 0 0 135px;
     }
 
     &__right-pointer {
-
+      float: right;
+      margin: 320px 135px 0 0;
     }
 
     &__header {
@@ -29,13 +30,23 @@
     }
 
     &__slider {
-      position: relative;
       width: 1280px;
       height: 651px;
       margin: 0 321px 60px 319px;
       background: #FFFFFF;
       box-shadow: 0 10px 100px rgba(0, 0, 0, 0.25);
-    }
-  }
 
+      &__slide {
+
+        &__slide-image {
+          display: inline;
+        }
+
+        &__work {
+          float: right;
+        }
+      }
+    }
+
+  }
 }

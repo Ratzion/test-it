@@ -2,7 +2,7 @@
   background: #E5E5E5;
   display: inline;
 
-  .about-us__header {
+  &__header {
     text-align: center;
   }
 
@@ -210,26 +210,23 @@
         font-size: 16px;
         letter-spacing: 0.15em;
         color: #1E1F24;
-        margin-left: 319px;
-        margin-top: 42px;
-        margin-bottom: 112px;
+        width: 639px;
+        margin: 42px 0 112px 310px;
         list-style-image: url('../images/about-us,community/list-symbol.svg');
       }
     }
     &__background-image {
-      margin-top: 279px;
-      margin-bottom: 172px;
+      margin: 279px 0 172px 0;
       z-index: 2;
       width: auto;
       float: right;
 
     }
     &__image {
-      margin-top: 234px;
       z-index: 1;
       width: auto;
       float: right;
-      margin-right: -350px;
+      margin: 234px -350px 0 0;
     }
 
   }

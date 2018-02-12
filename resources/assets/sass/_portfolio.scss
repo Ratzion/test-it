@@ -1,9 +1,41 @@
 .portfolio {
-  text-align: center;
-  position: relative;
-  background: #1E1F24;
+
 
   &__our-work {
+    display: inline-block;
+    position: relative;
+    background: #1E1F24;
 
+    &__main-header {
+      margin-top: 60px;
+      text-align: center;
+    }
+
+    &__left-pointer {
+      background: #F5F5F5;
+    }
+
+    &__right-pointer {
+
+    }
+
+    &__header {
+      font-style: normal;
+      font-weight: bold;
+      line-height: normal;
+      font-size: 56px;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    &__slider {
+      position: relative;
+      width: 1280px;
+      height: 651px;
+      margin: 0 321px 60px 319px;
+      background: #FFFFFF;
+      box-shadow: 0 10px 100px rgba(0, 0, 0, 0.25);
+    }
   }
+
 }

@@ -5,12 +5,12 @@
 
 .section-header {
   font-weight: 400;
-  font-size: 18px;
-  text-align: center;
+  font-size: inherit;
+  //text-align: center;
   letter-spacing: 0.2em;
   text-transform: uppercase;
-  color: #1E1F24;
-  background-color: #FFC126;
+  color: $text-color;
+  background-color: $orange-color;
   padding: 10px 38px 10px 38px;
   display: inline-block;
 }
@@ -24,8 +24,7 @@
   color: #1E1F24;
   border: 1px solid #1E1F24;
   border-radius: 2px;
-  padding: 1.5em 4em 1.6em 4em;
-  margin-top: 54px;
+  padding: 23px 58px 23px 58px;
   display: inline-block;
   text-transform: lowercase;
 }

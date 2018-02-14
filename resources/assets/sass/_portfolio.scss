@@ -4,11 +4,12 @@
     display: inline-block;
     position: relative;
     background: #1E1F24;
+    text-align: center;
 
-    &__main-header {
-      margin-top: 60px;
-      text-align: center;
-    }
+    //&__main-header {
+    //  margin-top: 60px;
+    //  text-align: center;
+    //}
 
     &__left-pointer {
       float: left;

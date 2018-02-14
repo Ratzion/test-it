@@ -1,6 +1,6 @@
 .about-us {
   background: #E5E5E5;
-  display: inline;
+  text-align: center;
 
   &__header {
     text-align: center;
@@ -186,11 +186,7 @@
   }
 
   &__community {
-    display: inline;
-    position: relative;
-
-    &__block {
-      display: inline-block;
+    text-align: left;
 
       &__header {
         margin: 262px 0 0 310px;
@@ -204,6 +200,7 @@
       }
 
       &__list {
+        display: inline-block;
         font-style: normal;
         font-weight: 400;
         line-height: 59px;
@@ -214,7 +211,8 @@
         margin: 42px 0 112px 310px;
         list-style-image: url('../images/about-us,community/list-symbol.svg');
       }
-    }
+
+
 
     &__background-image {
       margin: 279px 0 172px 0;
@@ -224,10 +222,12 @@
     }
 
     &__image {
+      display: inline-block;
       z-index: 1;
       width: auto;
       float: right;
       margin: 234px -350px 0 0;
     }
-  }
+    }
+
 }

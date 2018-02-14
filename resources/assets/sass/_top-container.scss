@@ -2,19 +2,19 @@
   height: 760px;
   text-align: center;
   background: #FCC127;
+  padding-top: 110px;
 
   .main-logo{
-    margin-top: 110px;
+    margin-bottom: 15px;
   }
 
   .landing-title {
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    font-size: 6.875em;
+    font-size: 110px;
     color: #1E1F24;
-    margin-top: 15px;
-    margin-bottom: 5px;
+    margin: 0 0 5px 0;
   }
 
   .short-description {
@@ -25,9 +25,10 @@
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #1E1F24;
+    margin-bottom: 55px;
   }
 
-  .main-image {
-    margin-top: 34px;
+  .button {
+    margin-bottom: 34px;
   }
 }

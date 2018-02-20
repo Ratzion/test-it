@@ -2,13 +2,13 @@
   background: #E5E5E5;
   text-align: center;
 
-  &__header {
-    text-align: center;
+  &__section-header {
+    margin-bottom: 35px;
   }
 
   &__team {
     position: relative;
-    margin-bottom: 158px;
+    padding: 0 190px 0 190px;
 
     &__header {
       font-style: normal;
@@ -16,6 +16,7 @@
       line-height: normal;
       font-size: 48px;
       text-align: center;
+      margin: 0 0 140px 0;
     }
 
     &__characteristics {
@@ -27,8 +28,7 @@
 
       &__years {
         float: left;
-        margin-left: 190px;
-        margin-top: 120px;
+        margin: 0 170px 161px 0;
 
         &__marked {
           font-style: normal;
@@ -56,8 +56,7 @@
 
       &__projects {
         float: left;
-        margin-left: 170px;
-        margin-top: 120px;
+        margin: 0 200px 158px 0;
 
         &__marked {
           font-style: normal;
@@ -85,8 +84,7 @@
 
       &__developers {
         float: left;
-        margin-left: 200px;
-        margin-top: 120px;
+        margin: 0 180px 158px 0;
 
         &__marked {
           font-style: normal;
@@ -113,8 +111,7 @@
 
       &__clients {
         float: left;
-        margin-left: 180px;
-        margin-top: 120px;
+        margin: 0 0 149px 0;
 
         &__marked {
           font-style: normal;
@@ -143,10 +140,12 @@
 
   &__solutions {
     display: inline-block;
+    text-align: left;
+    padding-top: 110px;
+    margin-bottom: 234px;
 
     &__image {
       float: left;
-      margin-top: 110px;
       margin-left: -150px;
       z-index: 2;
       position: relative;
@@ -154,13 +153,13 @@
 
     &__background-image {
       float: left;
-      margin-top: 189px;
+      margin-top: 79px;
       opacity: .99;
       position: relative;
     }
 
     &__header {
-      margin-top: 214px;
+      margin-top: 104px;
       font-style: normal;
       font-weight: bold;
       line-height: 64px;
@@ -188,46 +187,47 @@
   &__community {
     text-align: left;
 
-      &__header {
-        margin: 262px 0 0 310px;
-        font-style: normal;
-        font-weight: bold;
-        line-height: 64px;
-        font-size: 48px;
-        height: 137px;
-        text-align: left;
-        width: 400px;
-      }
+    &__info-block {
+      display: inline-block;
+      padding-top: 28px;
+    }
 
-      &__list {
-        display: inline-block;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 59px;
-        font-size: 16px;
-        letter-spacing: 0.15em;
-        color: #1E1F24;
-        width: 639px;
-        margin: 42px 0 112px 310px;
-        list-style-image: url('../images/about-us,community/list-symbol.svg');
-      }
+    &__header {
+      margin: 0 0 0 310px;
+      font-style: normal;
+      font-weight: bold;
+      line-height: 64px;
+      font-size: 48px;
+      height: 137px;
+      text-align: left;
+      width: 400px;
+    }
 
-
+    &__list {
+      display: inline-block;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 59px;
+      font-size: 16px;
+      letter-spacing: 0.15em;
+      color: #1E1F24;
+      width: 639px;
+      margin: 42px 0 112px 310px;
+      list-style-image: url('../images/about-us,community/list-symbol.svg');
+    }
 
     &__background-image {
-      margin: 279px 0 172px 0;
-      z-index: 2;
-      width: auto;
+      margin: 45px 0 172px 0;
+      z-index: 1;
       float: right;
     }
 
     &__image {
       display: inline-block;
-      z-index: 1;
-      width: auto;
+      z-index: 2;
       float: right;
-      margin: 234px -350px 0 0;
+      margin: 0 -350px 0 0;
     }
-    }
+  }
 
 }

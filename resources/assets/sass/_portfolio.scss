@@ -90,4 +90,90 @@
       margin-bottom: 55px;
     }
   }
+
+  &__why-we {
+    padding: 73px 149px 115px 150px;
+
+    &__header {
+      font-style: normal;
+      font-weight: bold;
+      line-height: normal;
+      font-size: 48px;
+      text-align: center;
+      margin-bottom: 75px;
+    }
+
+    &__advantages {
+      display: inline;
+      text-align: center;
+    }
+
+    &__advantage__text {
+      font-style: normal;
+      font-weight: normal;
+      line-height: 39px;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: 0.15em;
+      width: 320px;
+      height: 44px;
+    }
+
+    &__advantage__image {
+      margin-bottom: 41.37px;
+    }
+
+    &__focus {
+      display: inline-block;
+      margin-top: 3px;
+    }
+
+    &__technologies {
+      display: inline-block;
+      margin-top: 1px;
+    }
+
+    &__approach {
+      display: inline-block;
+    }
+
+    &__components {
+      display: inline-block;
+      margin-top: 3px;
+    }
+
+    &__contributors {
+      display: inline-block;
+      margin-top: 4px;
+    }
+  }
+
+  &__contact-us {
+    padding: 60px 479px 0 481px;
+    background: #202020;
+
+    &__text {
+      font-style: normal;
+      font-weight: normal;
+      line-height: 29px;
+      font-size: 16px;
+      text-align: center;
+      color: #FFFFFF;
+      opacity: 0.3;
+      padding-bottom: 36px;
+    }
+  }
+
+  &__contact-form {
+
+    &__text-input {
+      padding: 23px 281px 23px 281px;
+      margin-bottom: 29px;
+    }
+
+    &__submit-button {
+      padding: 23px 27px 23px 27px;
+      background: #11AD7F;
+    }
+  }
 }

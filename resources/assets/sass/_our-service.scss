@@ -1,0 +1,30 @@
+.our-service {
+  text-align: center;
+  padding-top: 101px;
+
+  &__services {
+
+    &__header {
+      font-style: normal;
+      font-weight: bold;
+      line-height: normal;
+      font-size: 56px;
+      text-align: center;
+    }
+
+    &__group {
+      display: inline-block;
+    }
+  }
+
+  &__image {
+    border: 20px solid #1E1F24;
+    background: #1E1F24;
+  }
+
+  &__service {
+
+  }
+
+
+}
